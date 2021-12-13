@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/tag_text_checked" android:state_checked="true" />-->
+    <!--<item android:drawable="@drawable/tag_text_normal" />-->
+
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="@color/yellow_fc" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/pink_fe" />
+            <corners android:radius="8dp" />
+
+            <stroke android:width="@dimen/dimen_1dp" android:color="@color/pink_fe" />
+        </shape>
+    </item>
+</selector>

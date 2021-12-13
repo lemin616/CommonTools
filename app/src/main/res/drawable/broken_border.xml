@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 实心 -->
+    <solid android:color="@color/white" />
+
+    <!-- 圆角 -->
+    <corners android:radius="@dimen/dimen_180dp" />
+
+    <!-- 描边 -->
+    <stroke
+        android:dashGap="@dimen/dimen_1dp"
+        android:dashWidth="@dimen/dimen_2dp"
+        android:width="@dimen/dimen_1dp"
+        android:color="@color/yellow_f7" />
+
+    <!-- 边距 -->
+    <padding
+        android:bottom="@dimen/dimen_3dp"
+        android:left="@dimen/dimen_5dp"
+        android:right="@dimen/dimen_5dp"
+        android:top="@dimen/dimen_3dp" />
+</shape>

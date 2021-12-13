@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonTopBar">
+        <attr name="title_text" format="string|reference" />
+        <attr name="title_text_color" format="color" />
+        <attr name="title_text_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageViewAttr">
+        <attr name="borderradius" format="dimension" />
+        <attr name="type">
+            <enum name="round" value="0" />
+            <enum name="circle" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--常用跳转Item视图属性-->
+    <declare-styleable name="ItemView">
+        <attr name="left_drawable" format="reference" />
+        <attr name="right_drawable" format="reference" />
+        <attr name="left_background_drawable" format="reference" />
+        <attr name="right_background_drawable" format="reference" />
+        <attr name="left_label" format="string" />
+        <attr name="right_label" format="string" />
+        <attr name="left_size" format="dimension" />
+        <attr name="right_size" format="dimension" />
+        <attr name="right_color" format="color" />
+        <attr name="left_color" format="color" />
+        <attr name="drawablePadding" format="dimension" />
+    </declare-styleable>
+
+    <!--自带删除密码可见性-->
+    <declare-styleable name="XEditText">
+        <attr name="x_separator" format="string" />
+        <attr name="x_disableClear" format="boolean" />
+        <attr name="x_clearDrawable" format="reference" />
+        <attr name="x_showPwdDrawable" format="reference" />
+        <attr name="x_hidePwdDrawable" format="reference" />
+        <attr name="x_disableEmoji" format="boolean" />
+        <attr name="x_disableTogglePwdDrawable" format="boolean" />
+    </declare-styleable>
+
+    <!--Tab指示器-->
+    <declare-styleable name="TabIndicator">
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_bottom_line_color" format="color" />
+        <attr name="indicator_bottom_line_height" format="dimension" />
+        <attr name="indicator_bottom_height" format="dimension" />
+        <attr name="indicator_textSize" format="dimension" />
+        <attr name="indicator_select_textSize" format="dimension" />
+        <attr name="indicator_vertical_line_w" format="dimension" />
+        <attr name="indicator_vertical_line_h" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_selected_color" format="color" />
+        <attr name="indicator_normal_color" format="color" />
+        <attr name="indicator_line_color" format="color" />
+        <attr name="indicator_vertical_line_color" format="color" />
+        <attr name="indicator_isBottom_line" format="boolean" />
+    </declare-styleable>
+
+    <!--状态视图-->
+    <declare-styleable name="msv_SimpleMultiStateView">
+        <attr name="msv_emptyView" format="reference" />
+        <attr name="msv_loadingView" format="reference" />
+        <attr name="msv_failView" format="reference" />
+        <attr name="msv_contentView" format="reference" />
+        <attr name="msv_nonetView" format="reference" />
+        <attr name="msv_viewState" format="enum">
+            <enum name="content" value="10001" />
+            <enum name="loading" value="10002" />
+            <enum name="empty" value="10003" />
+            <enum name="fail" value="10004" />
+            <enum name="nonet" value="10005" />
+        </attr>
+    </declare-styleable>
+
+    <!--Tag标签-->
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer" />
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--侧滑菜单的属性-->
+    <declare-styleable name="SlideMenuLayout">
+        <attr name="slideMode" format="enum">
+            <enum name="left" value="1001" />
+            <enum name="right" value="1002" />
+            <enum name="both" value="1003" />
+            <enum name="none" value="1004" />
+        </attr>
+        <attr name="slidePadding" format="dimension" />
+        <attr name="slideTime" format="integer" />
+        <attr name="parallax" format="boolean" />
+        <attr name="contentAlpha" format="float" />
+        <attr name="contentShadowColor" format="color" />
+        <attr name="contentToggle" format="boolean" />
+        <attr name="allowDragging" format="boolean" />
+    </declare-styleable>
+
+    <!-- checkbox -->
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="color_tick" format="color" />
+        <attr name="color_checked" format="color" />
+        <attr name="color_unchecked" format="color" />
+        <attr name="color_unchecked_stroke" format="color" />
+    </declare-styleable>
+
+    <!-- 物流节点 -->
+    <declare-styleable name="NodeProgressView">
+        <attr name="width" format="dimension" />
+        <attr name="nodeRadius" format="dimension" />
+    </declare-styleable>
+
+    <!-- progressbar -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="CustomerCommonTitleBar">
+        <attr name="titleBarColor" format="color" />
+        <attr name="fillStatusBar" format="boolean" />
+        <attr name="statusBarColor" format="color" />
+        <attr name="titleBarHeight" format="dimension" />
+        <attr name="showBottomLine" format="boolean" />
+        <attr name="bottomLineColor" format="color" />
+        <attr name="bottomShadowHeight" format="dimension" />
+        <attr name="lefType">
+            <enum name="none" value="0" />
+            <enum name="textView" value="1" />
+            <enum name="imageButton" value="2" />
+            <enum name="customView" value="3" />
+        </attr>
+        <attr name="leftText" format="string" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftTextSize" format="dimension" />
+        <attr name="leftDrawable" format="reference" />
+        <attr name="leftDrawablePadding" format="dimension" />
+        <attr name="leftImageResource" format="reference" />
+        <attr name="leftCustomView" format="reference" />
+        <attr name="righType">
+            <enum name="none" value="0" />
+            <enum name="textView" value="1" />
+            <enum name="imageButton" value="2" />
+            <enum name="customView" value="3" />
+        </attr>
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="rightImageResource" format="reference" />
+        <attr name="rightCustomView" format="reference" />
+        <attr name="centeType">
+            <enum name="none" value="0" />
+            <enum name="textView" value="1" />
+            <enum name="searchView" value="2" />
+            <enum name="customView" value="3" />
+        </attr>
+        <attr name="centerSearchRighType">
+            <enum name="voice" value="0" />
+            <enum name="delete" value="1" />
+        </attr>
+        <attr name="centerText" format="string" />
+        <attr name="centerTextColor" format="color" />
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="centerSubText" format="string" />
+        <attr name="centerSubTextColor" format="color" />
+        <attr name="centerSubTextSize" format="dimension" />
+        <attr name="centerSearchEditable" format="boolean" />
+        <attr name="centerSearchBg" format="reference" />
+        <attr name="centerCustomView" format="reference" />
+        <attr name="searchHint" format="string" />
+    </declare-styleable>
+
+</resources>

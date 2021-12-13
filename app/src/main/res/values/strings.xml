@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">CommonTools</string>
+    <string name="app_name">Library</string>
+
+    <string name="setting">Setting</string>
+    <string name="resume">Resume</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="no">NO</string>
+
+    <string name="title_dialog">Tips</string>
+    <string name="message_permission_rationale">Grant the following permissions to continue the program:\n\n%1$s</string>
+    <string name="message_permission_always_failed">We need these permissions, please give us permission in the settings:\n\n%1$s</string>
+
+    <string name="permission_setting">Permission Setting</string>
+
+    <string name="str_limit_photo">最多选择%s张照片</string>
 </resources>

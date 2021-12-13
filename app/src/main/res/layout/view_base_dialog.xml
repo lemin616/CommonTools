@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_base_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_corner"
+    android:minWidth="@dimen/dimen_200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/dimen_50dp"
+        android:paddingLeft="@dimen/dimen_10dp"
+        android:paddingRight="@dimen/dimen_10dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_14sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View style="@style/border_v_line_de" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10dp"
+            android:text="取消"
+            android:textColor="@color/gray_66"
+            android:textSize="@dimen/size_14sp" />
+
+        <ImageView style="@style/border_h_line_de" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10dp"
+            android:text="确定"
+            android:textSize="@dimen/size_14sp" />
+    </LinearLayout>
+</LinearLayout>
