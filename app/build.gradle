@@ -1,3 +1,5 @@
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.lemin616'
 plugins {
     id 'com.android.application'
 }
